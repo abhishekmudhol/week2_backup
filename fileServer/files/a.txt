@@ -1,0 +1,5 @@
+In JavaScript, memory management is handled automatically by the browser or the JavaScript engine.
+When an object (like an array) is no longer referenced by any variable or data structure, it becomes
+eligible for garbage collection. This means that the memory allocated to [1, 2, 3, 4, 5] may be reclaimed 
+at some point in the future when the garbage collector runs, freeing up resources for other parts of your 
+application.
